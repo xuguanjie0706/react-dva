@@ -8,7 +8,7 @@ import { Route, Router, Switch, Redirect } from "dva/router";
 import dynamic from "dva/dynamic";
 
 const Err = dynamic({
-  component: () => import("../common/Error")
+  component: () => import("../common/Error"),
 });
 
 // const Room = dynamic({

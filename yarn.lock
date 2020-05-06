@@ -946,7 +946,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.5.1", "@babel/runtime@^7.7.4":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.4":
   version "7.9.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
   integrity sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
@@ -5409,6 +5409,13 @@ import-from@^2.1.0:
   dependencies:
     resolve-from "^3.0.0"
 
+import-html-entry@^1.7.0:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/import-html-entry/-/import-html-entry-1.7.2.tgz#9db8a6af527c915e99691a59d8463ace339f8fa1"
+  integrity sha512-3MCubr5o9BOqKQsE6gM6woF8pwUjG24Xartv8Jv6CeF4M1syaYG3a7aJMW40UV3jGsKsCKth32bxA0OhxD33xQ==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+
 import-local@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/import-local/-/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
@@ -8747,6 +8754,17 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qiankun@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/qiankun/-/qiankun-2.0.11.tgz#8665cf5a0b5c72d09c262f0838f9b8075cb86ec8"
+  integrity sha512-MXYLIv5g3o6/2TuWDEcL9xa3Zl+BTjzxrE2cNY4eiIKwkiAgqdl7/A144Q10dEgCPBJsSvrrsJJl0sSirOVmZQ==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    import-html-entry "^1.7.0"
+    lodash "^4.17.11"
+    single-spa "^5.3.1"
+    tslib "^1.10.0"
+
 qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
@@ -10009,6 +10027,11 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+single-spa@^5.3.1:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.3.4.tgz#d456b698f2068e98f94d3e203620dfc69b1a57c4"
+  integrity sha512-J0I+OfKn04QdaOp3lC8UL2xmD/BA/V0OisbCFbrR5LDIdsbcP9QG6ZFRNqIQQP8C9XXUtlGnA3ZWPLQBKGcOrw==
 
 sisteransi@^1.0.4:
   version "1.0.5"

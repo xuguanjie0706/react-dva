@@ -6,9 +6,8 @@ import {
   // createBrowserHistory
 } from "history";
 
-
 const app = dva({
-  history: createHashHistory()
+  history: createHashHistory(),
   // history: createBrowserHistory()
 });
 
