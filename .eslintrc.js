@@ -2,7 +2,8 @@ module.exports = {
     "env": {
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -51,15 +52,15 @@ module.exports = {
         "semi-spacing": 2, // 强制分号之前和之后使用一致的空格
         "no-trailing-spaces": 2, // 禁用行尾空格
         "no-multiple-empty-lines": 2,// 禁止出现多行空行 
-        "comma-dangle": [2, "always-multiline"], //要求或禁止末尾逗号
+        "comma-dangle": [0, "always-multiline"], //要求或禁止末尾逗号
         "eol-last": 2, // 要求或禁止文件末尾存在空行
         "camelcase": 0, //强制使用骆驼拼写法命名约定
         "comma-style": 2,
         "no-undef": 1,//不能有未定义的变量
         "no-unused-expressions": 1,//禁止无用的表达式
         "no-unused-vars": 1,
-        "computed-property-spacing": [2, "always"], // 强制在计算的属性的方括号中使用一致的空格
-        "array-bracket-spacing": [2, "never"], // 数组空格固定
+        "computed-property-spacing": [0, "always"], // 强制在计算的属性的方括号中使用一致的空格
+        "array-bracket-spacing": [0, "never"], // 数组空格固定
         "block-scoped-var": 0, // 在块级作用域外访问块内定义的变量是否报错提示
     }
-};
+};  
